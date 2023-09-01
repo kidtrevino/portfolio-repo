@@ -1,0 +1,89 @@
+body{
+    background-color:black;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.navigation{
+    border-bottom: 2px solid black;
+ width:72%;
+ height: 40px;
+ position: fixed;
+ right: 0;
+ top: 0;
+ border-radius: 10px;
+ display: flex;
+justify-content: space-between;
+padding: 1%;
+}
+a{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(205, 201, 201);
+}
+#one{
+    text-decoration: none;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#profile{
+    height: 400px;
+    width: 103%;
+}
+#img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: -15.5px;
+    border: 2px solid black; 
+    position: fixed;
+    top: -15px;
+    left: -20px;  
+}
+#ttt{
+    position: absolute;
+    left: 110px;
+    top: 40px;
+}
+#two{
+    position: absolute;
+    left: 120px;
+    top: 60px;
+    color: black;
+}
+#ser{
+color: rgb(205, 201, 201);
+}
+#rev{
+    color: white;
+}
+#abt{
+    color: rgb(205, 201, 201);
+}
+#tba{
+    color: white;
+}
+#con{
+    color: rgb(205, 201, 201);
+}
+h5{
+    color: white;
+}
+@media  screen and (min-width:1200px){
+    body{ }
+    #ttt{
+     font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 19px;
+
+    }
+    #two{
+        color: white;
+        margin-top: 60px;
+        font-size: 18px;
+
+    }
+}
